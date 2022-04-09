@@ -1,7 +1,7 @@
 # SpiderWoman
 Your friendly neighbourhood web crawler 2.0
 
-To run on terminal/command prompt : WebCrawler.py <website name>
+To run on terminal/command prompt : WebCrawler.py "URL Name"
 
 Tested case 1: WebCrawler.py "https://www.caticles.com/"
 Result :
