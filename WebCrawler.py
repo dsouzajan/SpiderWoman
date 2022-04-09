@@ -20,8 +20,6 @@ def search_links(urlvalue):
         for linkvalue in soup.findAll('a', attrs={'href': re.compile("^http")}):
             if linkvalue.get('href') not in crawled :
                 return_links.append(linkvalue.get('href'))
-            #if len(return_links) == 10:
-             #   break
     print (urlvalue)
     for i in return_links:
         print(" "*4 + i)
